@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="242px" height="67px" viewBox="0 0 242 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>251E0CE3-9B4C-49F5-BFE0-62CCB538E5C6</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="47.2178736%" y1="2.09707536%" x2="94.3223902%" y2="92.0469521%" id="linearGradient-1">
+            <stop stop-color="#8755C8" offset="0%"></stop>
+            <stop stop-color="#A883DA" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="04_Support" transform="translate(-285.000000, -1015.000000)" fill="url(#linearGradient-1)">
+            <path d="M318.5,1015 L493.5,1015 C512.001539,1015 527,1029.99846 527,1048.5 L527,1048.5 C527,1067.00154 512.001539,1082 493.5,1082 L318.5,1082 C299.998461,1082 285,1067.00154 285,1048.5 L285,1048.5 C285,1029.99846 299.998461,1015 318.5,1015 Z" id="Rectangle-2-Copy"></path>
+        </g>
+    </g>
+</svg>

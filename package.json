@@ -1,0 +1,19 @@
+{
+  "name": "electroniq",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Electroniq is astrophysicist (and retro music enthusiast) Tara Himmels' blog.",
+  "author": "Tara Himmels",
+  "dependencies": {
+    "handlebars": "^4.0.12",
+    "jstransformer-handlebars": "^1.1.0",
+    "metalsmith": "^2.3.0",
+    "metalsmith-layouts": "^2.3.0",
+    "metalsmith-markdown": "^1.1.0"
+  },
+  "main": "build.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node ."
+  }
+}
