@@ -1,0 +1,239 @@
+.download-button-text {
+	height: 40px;
+	width: 105px;
+	color: #8755C8;
+	font-family: Heebo;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 0.8px;
+	line-height: 40px;
+	text-align: center;
+	margin: auto;
+}
+
+.download-button {
+	box-sizing: border-box;
+	height: 48px;
+	width: 174px;
+	border: 2px solid #8755C8;
+	border-radius: 33.5px;
+	background-color: #FFFFFF;
+	cursor: pointer;
+}
+
+.donate-button-text {
+	height: 40px;
+	width: 67px;
+	color: #FFFFFF;
+	font-family: Heebo;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 0.8px;
+	line-height: 40px;
+	text-align: center;
+	margin: auto;
+}
+
+.donate-button {
+	height: 67px;
+	width: 242px;
+	border-radius: 33.5px;
+	background: linear-gradient(152.36deg, #8755C8 0%, #A883DA 100%);
+	cursor: pointer;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 15px;
+}
+
+.donate-text {
+	height: 24px;
+	width: 100%;
+	color: #FFFFFF;
+	font-family: Heebo;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	margin: auto;
+	margin-top: 75px;
+	position: relative;
+}
+
+.donate-bar {
+	height: 4px;
+	width: 40px;
+	border-radius: 6px;
+	background-color: #FFFFFF;
+	margin: auto;
+	margin-top: 5px;
+}
+
+.donate-title {
+	height: 25px;
+	width: 71px;
+	color: #FFFFFF;
+	font-family: Merriweather;
+	font-size: 20px;
+	line-height: 25px;
+	text-align: center;
+	margin: auto;
+	top: 44px;
+	position: relative;
+}
+
+.background-grey {
+	height: 245px;
+	width: 100%;
+	background: linear-gradient(141.07deg, #303030 0%, #424242 100%);
+}
+
+/*the container must be positioned relative:*/
+.custom-select {
+  	position: relative;
+  	font-family: Biryani;
+}
+
+.custom-select select {
+  	display: none; /*hide original SELECT element:*/
+}
+
+.select-selected {
+	height: 25px;
+	background-color: #FFFFFF;
+	font-family: Biryani;
+	font-size: 14px;
+	letter-spacing: 0.88px;
+	line-height: 25px;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  	position: absolute;
+  	content: "";
+  	top: 19.5px;
+  	right: 19.5px;
+  	width: 0;
+  	height: 0;
+  	border: 6px solid transparent;
+  	border-color: black transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+/*.select-selected.select-arrow-active:after {
+  	border-color: transparent transparent black transparent;
+  	top: 19.5px;
+}*/
+
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  	color: #8E8E8E;
+  	padding: 8px 16px;
+  	/*border: 1px solid transparent;*/
+  	/*border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;*/
+  	cursor: pointer;
+
+	box-sizing: border-box;
+	height: 46px;
+	/*width: 379px;*/
+	border: 1px solid #D7D7D7;
+	border-radius: 6px;
+	background-color: #FFFFFF;
+}
+
+/*style items (options):*/
+.select-items {
+  	position: absolute;
+  	background-color: #FFFFFF;
+  	top: 100%;
+  	left: 0;
+  	right: 0;
+  	z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  	display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.contact-text {
+	height: 29px;
+	width: 296px;
+	color: #444444;
+	font-family: Heebo;
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 1.67px;
+	line-height: 29px;
+	text-align: center;
+	margin: auto;
+}
+
+.contact-info {
+	height: 21px;
+	width: 162px;
+	color: #515151;
+	font-family: Biryani;
+	font-size: 12px;
+	letter-spacing: 0.75px;
+	line-height: 21px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    	width: 100%; /* Full widsth */
+    	padding: 12px; /* Some padding */  
+    	box-sizing: border-box; /* Make sure that padding and width stays in place */
+    	margin-top: 6px; /* Add a top margin */
+    	/* margin-bottom: 16px; /* Bottom margin */
+    	/*resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+	border: 1px solid #D7D7D7;
+	border-radius: 6px;
+	background-color: #FFFFFF;
+}
+
+/* Style the submit button with a specific background color etc */
+/* input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+} */
+
+/* When moving the mouse over the submit button, add a darker green color */
+/* input[type=submit]:hover {
+    background-color: #45a049;
+} */
+
+/* Add a background color and some padding around the form */
+.container {
+    	padding: 20px;
+	height: 490.42px;
+	width: 611px;
+	border-radius: 5.5px;
+	background-color: #FFFFFF;
+	box-shadow: 0 0 3px 2px rgba(0,0,0,0.15);
+	margin: auto;
+}
+
+.background-purple {
+	height: 548px;
+	width: 100%;
+	background: linear-gradient(141.07deg, #8755C8 0%, #A883DA 100%);
+	margin-top: 100px;
+}
+
+.example {
+	box-sizing: border-box;
+	/*height: 46px;*/
+	width: 379px;
+	/*border: 1px solid #D7D7D7;*/
+	border-radius: 6px;
+	background-color: #FFFFFF;
+}
